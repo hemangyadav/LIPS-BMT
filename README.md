@@ -1,12 +1,10 @@
 # LIPS-BMT
 Research related to the Lung Injury Prediction Score in Patients Who Underwent Bone Marrow Transplantation
 
-This research uses routinely collected variables in the pre-transplant, post-transplant and in-hospital domains to help populate a 22-point score (LIPS-BMT) score. 
+This research uses routinely collected variables in the pre-transplant, post-transplant and in-hospital domains to help populate a 22-point score (LIPS-BMT) score. The model assigns points as follows:
 
-**Variable	Points
-**
 
-_Pre-transplant domain (up to 10 points):_
+PRE-TRANSPLANT DOMAIN (up to 10 points)
   Allogeneic HCT	2
   
   Reduced-intensity conditioning	1
@@ -25,11 +23,10 @@ _Pre-transplant domain (up to 10 points):_
   
   Chemotherapy with Thalidomide, Cisplatin, Methotrexate or Carboplatin	1
 	
-_Post-transplant domain, pre-hospital (up to 1 point)	_
-
+POST-TRANSPLANT DOMAIN (PRE-HOSPITAL, up to 1 point)
   Oral steroid use	1
 	
-_Post-transplant domain, within 24h of hospital admission (up to 11 points)	_
+POST-TRANSPLANT DOMAIN (IN-HOSPITAL, up to 10 points)
 
   Sepsis	4
   	+ Septic Shock	2
